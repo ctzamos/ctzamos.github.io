@@ -1,0 +1,145 @@
+.container { max-width: 960px; }
+.navbar {
+  display: block;
+  width: 100%;
+  height: 6.5rem;
+  background: #fff;
+  z-index: 99;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0; }
+.navbar-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0; }
+  
+.navbar-link {
+  font-size: 1em;
+  font-weight: 400;
+  margin-right: 35px;
+  text-decoration: none;
+  line-height: 6.5rem;
+  color: #222; }
+.navbar-link.active {
+  color: #33C3F0; 
+}
+
+.publication {
+  margin-bottom: 1em;
+}
+.publication-title {
+  font-weight: 700;
+}
+.publication-title span {
+  color: #D9B16C;
+  font-size: 0.9em;
+}
+.publication-info  a {
+  color: black;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.publication-info a:hover {
+  border-bottom: 1px solid black;
+}
+.publication-conference {
+  font-style: italic;
+}
+.publication-actions {
+  margin-top: 0.5em;
+  text-align: center;
+}
+.bib, .abs {
+  cursor: pointer;
+}
+.url:hover, .bib:hover, .abs:hover {
+  box-shadow: 0 10px 10px -10px black;
+}
+.active {
+  box-shadow: 0 10px 10px -10px black;
+}
+.bib-disable, .abs-disable, .url-disable {
+  opacity: 0.3;
+}
+.details {
+  display: none;
+  padding: 0 1rem;
+  border-left: 1px solid #ccc;
+}
+.bibtex {
+    white-space: pre-wrap;       /* CSS 3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    margin: 1rem 0;
+}
+.abstract {
+  text-align: justify;
+}
+.abstract p {
+  margin: 1rem 0;
+}
+#overlay .title {
+  font-size: 1.2em;
+}
+#overlay {
+  display: none;
+  position: fixed;
+  background: rgba(250,250,250,0.7);
+  top:0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  padding: 2em 0;
+}
+
+#overlay-box {
+  background: white;
+  margin: 2em 0;
+  padding: 2em;
+  box-shadow: 0 0 2em black;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+
+#footer {
+  margin-top: 2em;
+  padding-top: 1rem;
+  padding-bottom: 5em;
+  text-align: center;
+  font-style: italic;
+  
+}
+.expand {display: none;}
+.logos {
+  padding: 1px;
+  overflow: hidden;
+  width: 132px; 
+  float: right;
+}
+.logos img:hover {
+  background: whitesmoke;
+}
+@media (min-width:850px){
+p {
+  text-align: justify;
+}
+}
+@media (min-width:1100px){
+#header > .seven {
+  margin-left: 0;
+}
+}
+@media (max-width:399px){
+.logos {
+  display: none;
+}
+}
+.contact p {
+  text-align: left;
+}
