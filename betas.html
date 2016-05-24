@@ -1,32 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Christos Tzamos</title>
-  <meta name="description" content="Christos Tzamos is a Graduate Student in the Theory of Computation Group at CSAIL, MIT. He is interested in Algorithmic Game Theory, Learning Theory as well as in the Design, Analysis and Theory of Algorithms." />
-  <meta name="author" content="Christos Tzamos">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
-</head>
-<body>
-  <nav class="navbar">
-    <div class="container">
-      <ul class="navbar-list">
-        <li class="navbar-item"><a class="navbar-link" href="/">&lt; Christos Tzamos</a></li>
-      </ul>
-      <div class="logos">
-        <a href="http://www.mit.edu/" target="_blank"><img src="images/mit_grey.png" alt="MIT logo" /></a><a href="http://www.csail.mit.edu" target="_blank"><img src="images/csail.png" alt="CSAIL logo"/></a>
-      </div>
-    </div>
-  </nav>
-  <div class="container">
-  <h3 style="margin-top: 1em;">Example: Optimal Auctions for Beta Distributions</h3>
+---
+layout: default
+---
+  <h2>Example: Optimal Auctions for Beta Distributions</h2>
+  &lt; <a href="/">Back to home</a><br/><br/>
   <p>
     This example considers the case of 2 items and a single additive buyer whose values are distributed independently according to <a href="http://en.wikipedia.org/wiki/Beta_distribution">Beta distributions</a>. Note that in the special case with Beta(1,1), the value for each item is distributed uniformly in [0,1].
   </p>
+  <center>
   <svg viewBox="0 0 1 1">
     <defs>
       <clipPath id="clipLeft">
@@ -48,11 +28,10 @@
       <circle cx="0" cy="1" r="0.02" fill="orange" />
     </g>
   </svg>
-  <div class="row" id="result">
-  </div>
-  <br/>
-  <div class="row">
-  <h5>Parameters</h5>
+  <p id="result">
+  </p>
+</center>
+  <h3>Parameters</h3>
   <form>
     <input type="checkbox" id="animate" checked /> Animate
     <ol>
@@ -66,8 +45,7 @@
     </li>
     </ol>
   </form>
-  </div>
-  <h5>Explanation</h5>
+  <h3>Explanation</h3>
   <p>
     The figure shows how the framework in the papers <a href="http://arxiv.org/abs/1503.01958">"Mechanism Design via Optimal Transport"</a> and <a href="http://arxiv.org/abs/1409.4150">"Strong Duality for a Multiple-Good Monopolist"</a> can be applied to compute the optimal mechanism that maximizes
     the seller's expected revenue:
@@ -93,20 +71,8 @@
       The buyer's utility is 0 below the thick solid curve. Above the thick solid curve, it is given by the L<sub>1</sub> distance to the curve.
     </li>
   </ul>
-  </div>
-  
-  <div id ="footer">
-    <div class="container">
-      <div class="twelve columns">
-      </div>
-    </div>
-  </div>
   
   
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
   <style>
     svg {
       width: 100%;
@@ -130,13 +96,10 @@
       border: 1px #0E5EDB solid;
       text-align: right;
     }
-    a { color: black; }
-    ul {list-style: square outside;}
-    ol {list-style: decimal outside;}
   </style>
-  <script type="text/javascript" src="js/betas/beta.js"></script>
-  <script type="text/javascript" src="js/betas/betaline.js"></script>
-  <script type="text/javascript" src="js/betas/bundling.js"></script>
+  <script type="text/javascript" src="static/js/betas/beta.js"></script>
+  <script type="text/javascript" src="static/js/betas/betaline.js"></script>
+  <script type="text/javascript" src="static/js/betas/bundling.js"></script>
   <script>
     var paths = document.getElementById("paths").getElementsByTagName("path");
     var path0 = paths[0];
@@ -257,5 +220,3 @@
     };
     var exampleBundle = new Bundling(exampleB,exampleB,exampleBline,exampleBline);
   </script>
-</body>
-</html>
