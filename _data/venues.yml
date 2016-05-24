@@ -1,0 +1,60 @@
+icalp2016:
+  slug: ICALP
+  year: 2016
+  name: '43rd Int''l Colloquium on Automata, Languages and Programming'
+  url: http://www.easyconferences.eu/icalp2016/
+ec2016:
+  slug: EC
+  year: 2016
+  name: 14th ACM Conference on Economics and Computation
+  url: http://www.sigecom.org/ec16/
+stoc2016:
+  slug: STOC
+  year: 2016
+  name: 48th ACM Symposium on Theory of Computing
+  url: http://acm-stoc.org/stoc2016/
+focs2015:
+  slug: FOCS
+  year: 2015
+  name: 56th Annual IEEE Symposium on Foundations of Computer Science
+  url: https://focs15.simons.berkeley.edu
+sagt2015:
+  slug: SAGT
+  year: 2015
+  name: 8th International Symposium on Algorithmic Game Theory
+  url: http://sagt2015.mpi-inf.mpg.de/
+ec2015:
+  slug: EC
+  year: 2015
+  name: 16th ACM Conference on Economics and Computation
+  url: http://www.sigecom.org/ec15/
+adauctions2015:
+  slug: AdAuctions
+  year: 2015
+  name: 11th Ad Auctions Workshop
+  url: https://sites.google.com/site/adauctions2015/
+soda2014:
+  slug: SODA
+  year: 2014
+  name: ACM-SIAM Symposium on Discrete Algorithms
+  url: https://www.siam.org/meetings/da14/
+ec2013:
+  slug: EC
+  year: 2013
+  name: 14th ACM Conference on Economics and Computation
+  url: http://www.sigecom.org/ec13/
+icalp2013:
+  slug: ICALP
+  year: 2013
+  name: '40th Int''l Colloquium on Automata, Languages and Programming'
+  url: http://www.icalp2013.lu.lv/
+wine2012:
+  slug: WINE
+  year: 2012
+  name: '8th Workshop on Internet & Network Economics'
+  url: http://wine12.csc.liv.ac.uk/
+wine2010:
+  slug: WINE
+  year: 2010
+  name: '6th Workshop on Internet & Network Economics'
+  url: http://web.stanford.edu/group/wine/

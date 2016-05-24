@@ -1,0 +1,89 @@
+---
+-
+  title: Does Information Revelation Improve Revenue?
+  authors: daskalakis-papadimitriou-tzamos
+  venue: ec2016
+  url: 
+-
+  title: Mechanism Design with Selective Verification
+  authors: fotakis-tzamos-zampetakis
+  venue: ec2016
+  url: http://arxiv.org/abs/1507.02301
+-
+  title: Tight Hardness Results for Maximum Weight Rectangles
+  authors: backurs-dikkala-tzamos
+  venue: icalp2016 
+  url: http://arxiv.org/abs/1602.05837
+-
+  title: A Size-Free CLT for Poisson Multinomials and its Applications
+  authors: daskalakis-de-kamath-tzamos
+  venue: stoc2016
+  url: http://arxiv.org/abs/1511.03641
+-
+  title: 'On the Structure, Covering and Learning of Poisson Multinomial Distributions'
+  authors: daskalakis-kamath-tzamos
+  venue: focs2015
+  url: http://arxiv.org/abs/1504.08363
+-
+  title: Efficient Money Burning in General Domains
+  authors: fotakis-tsipras-tzamos-zampetakis
+  venue: sagt2015
+  url: pdfs/FTTZ15.pdf
+-
+  title: Strong Duality for a Multiple-Good Monopolist
+  authors: daskalakis-deckelbaum-tzamos
+  venue: ec2015
+  url: http://arxiv.org/abs/1409.4150
+  meta:
+    -
+      content: Example with Beta distributions
+      url: /betas.html
+-
+  title: The Value of Knowing Your Enemy
+  authors: tzamos-wilkens
+  venue: adauctions2015
+  url: http://arxiv.org/abs/1411.1379
+-
+  title: The Complexity of Optimal Mechanism Design
+  authors: daskalakis-deckelbaum-tzamos
+  venue: soda2014
+  url: http://arxiv.org/abs/1211.1703
+-
+  title: Mechanism Design via Optimal Transport
+  authors: daskalakis-deckelbaum-tzamos
+  venue: ec2013
+  url: http://arxiv.org/abs/1503.01958
+  meta:
+    -
+      content: Best Paper and Best Student Paper Award
+      url: http://www.sigecom.org/awards.html
+      color: brown
+      icon: ★
+-
+  title: Strategyproof Facility Location for Concave Cost Functions
+  authors: fotakis-tzamos
+  venue: ec2013
+  url: http://arxiv.org/abs/1305.3333
+-
+  title: On the Power of Deterministic Mechanisms for Facility Location Games
+  authors: fotakis-tzamos
+  venue: icalp2013
+  url: http://arxiv.org/abs/1207.0935
+-
+  title: Optimal Pricing is Hard
+  authors: daskalakis-deckelbaum-tzamos
+  venue: wine2012
+  url: http://arxiv.org/abs/1503.02516
+-
+  title: Winner-Imposing Strategyproof Mechanisms for Multiple Facility Location Games
+  authors: fotakis-tzamos
+  venue: wine2010
+  url: http://www.softlab.ntua.gr/~fotakis/data/wine10.pdf
+
+-
+  title: Strongly Sublinear Algorithms via Conditional Sampling
+  authors: gouleakis-tzamos-zampetakis
+-
+  title: 'Optimal Seat Pricing With Multiple Classes & Why Economy Seats Feel so Small'
+  authors: stamatopoulos-tzamos
+  url: pdfs/ST15.pdf

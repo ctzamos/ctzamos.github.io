@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Christos Tzamos</title>
+  <meta name="description" content="Christos Tzamos is a Graduate Student in the Theory of Computation Group at CSAIL, MIT." />
+  <meta name="author" content="Christos Tzamos">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="static/css/bootstrap.css">
+  <link rel="stylesheet" href="static/css/main.css">
+  <style>body {font-family:"Lato",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 15px; line-height: 1.8em;}</style>
+</head>
+<body>
+  <div style="background: black; height: 5px;"></div>
+  <div class="container">
+    <div class="row">
+      
+      <div class="fixed container" style="text-align: center;">
+        <div class="col-md-3 col-md-offset-9 col-sm-4 col-sm-offset-8">
+          {% include info.html %}
+        </div>
+      </div>
+
+      <div class="col-sm-8 col-md-9 content">{{content}}</div>
+      
+      
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-xs-12" style="text-align: center;color: #999; font-size: 0.9em;">
+        <i style="vertical-align: middle">created by <a href="http://christos.me">Christos Tzamos</a> using Jekyll and Github Pages</i> &nbsp;&nbsp; <iframe src="https://ghbtns.com/github-btn.html?user=ctzamos&amp;repo=ctzamos.github.io&amp;type=fork" frameborder="0" scrolling="0" width="85" height="20px" style="vertical-align: middle"></iframe> 
+        <br/>
+        <br/>
+      </div>
+    </div>
+  </div>
+  
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      (function(h,u){$("#email").html( $('<a>').text(u+"@"+h).attr('href','mailto:'+u+"@"+h) );})('mit.edu','tzamos');
+      (function(h,u){$("#phone").html( u+"0"+h );})('9-1739','(617)-9');
+      $('a').each(function() {
+        var url = $(this).attr('href');
+        if(url.substr(0,1) == '#') {
+          $(this).click(function() {
+            var scroll = 0;
+            if(url != '#') scroll = $( url ).offset().top;
+            $('html, body').animate({ scrollTop: scroll}, 1000);
+            return false;
+          });
+        } else if(url.substr(0,4) == 'http') {
+          $(this).attr('target', '_blank');
+        }
+      });      
+    });
+  </script>
+</body>
+</html>

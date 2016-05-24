@@ -1,0 +1,37 @@
+a { color: inherit; }
+a:hover, a:active, a:focus { color: inherit; text-decoration: none; border-bottom: 1px solid black; outline: none;}
+li {padding: 5px 0;}
+
+.contact p {
+  text-align: left;
+}
+.coauthorsbr {display: inline;}
+@media (max-width:850px){
+.coauthorsbr {display: block;}
+}
+.coauthors, .coauthors li {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+.coauthors li:after {
+  content: ", ";
+}
+.coauthors li:last-child:after {
+  content: "";
+}
+.coauthors li:last-child:before {
+  content: "and ";
+}
+.coauthors li:first-child:before {
+  content: "";
+}
+
+.fixed {
+  position: static;
+}
+@media (min-width: 768px) {
+  .fixed {
+    position: fixed;
+  }
+}
