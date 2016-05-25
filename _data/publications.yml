@@ -37,7 +37,7 @@
   meta:
     -
       content: Example with Beta distributions
-      url: /betas.html
+      url: /betas
 -
   title: The Value of Knowing Your Enemy
   authors: tzamos-wilkens
@@ -86,4 +86,4 @@
 -
   title: 'Optimal Seat Pricing With Multiple Classes & Why Economy Seats Feel so Small'
   authors: stamatopoulos-tzamos
-  url: pdfs/ST15.pdf
+  url: static/pdfs/ST15.pdf

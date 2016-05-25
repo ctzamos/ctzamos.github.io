@@ -1,11 +1,15 @@
 ---
 layout: default
+author: Christos Tzamos
+username: tzamos
+emailuser: tzamos
+emaildomain: mit.edu
 ---
-# Christos Tzamos
+# {{page.author}}
 
-I am a PhD Student in the **[Theory of Computation](http://toc.csail.mit.edu/)** group at **[MIT](http://www.mit.edu/)** where I am advised by **[Constantinos Daskalakis](http://people.csail.mit.edu/costis/)**.
+I study Computer Science in the **[Theory of Computation](http://toc.csail.mit.edu/)** group at **[MIT](http://www.mit.edu/)** where I am advised by **[Constantinos Daskalakis](http://people.csail.mit.edu/costis/)**.
 
-I am interested in Algorithmic Game Theory, Learning Theory as well as in the Design, Analysis and Theory of Algorithms.
+My research interests include Algorithmic Game Theory, Learning Theory as well as the Design, Analysis and Theory of Algorithms.
 
 ## About
 

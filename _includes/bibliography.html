@@ -11,7 +11,7 @@
     with 
     <ul class="coauthors">
       {% for pubauthor in pubauthors %}
-        {% if pubauthor == 'tzamos' %}
+        {% if pubauthor == page.username %}
           {% continue %}
         {% endif %}
         {% assign author = site.data.authors[pubauthor] %}
@@ -42,7 +42,7 @@
     with 
     <ul class="coauthors">
       {% for pubauthor in pubauthors %}
-        {% if pubauthor == 'tzamos' %}
+        {% if pubauthor == page.username %}
           {% continue %}
         {% endif %}
         {% assign author = site.data.authors[pubauthor] %}
