@@ -34,10 +34,6 @@
   authors: daskalakis-deckelbaum-tzamos
   venue: ec2015
   url: http://arxiv.org/abs/1409.4150
-  meta:
-    -
-      content: Example with Beta distributions
-      url: /betas
 -
   title: The Value of Knowing Your Enemy
   authors: tzamos-wilkens

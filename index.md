@@ -35,6 +35,6 @@ I am interested in Algorithmic Game Theory, Learning Theory as well as in the De
     
 ## Miscellaneous
 
-*   [A collection of hard riddles and puzzles.](/puzzles)
 *   [Revenue-optimal mechanisms for Beta distributed items.](/betas)
 *   [The EM algorithm for Naive-Bayes.](/em)
+*   [A collection of hard riddles and puzzles.](/puzzles)
