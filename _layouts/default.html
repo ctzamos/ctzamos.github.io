@@ -1,16 +1,15 @@
----
-layout: default
----
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Christos Tzamos</title>
-  <meta name="description" content="{{page.description}}" />
-  <meta name="author" content="{{page.author}}">
+  <meta name="description" content="{{site.description}}" />
+  <meta name="author" content="{{site.author}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="static/css/bootstrap.css">
   <link rel="stylesheet" href="static/css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
   <style>body {font-family:"Lato",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 15px; line-height: 1.8em;}</style>
 </head>
 <body>
@@ -34,8 +33,6 @@ layout: default
     </div>
   </div>
   
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
   <script type="text/javascript">
     $(function() {
       var email1 = $('#email').contents().filter(function() {return this.nodeType == 3;}).text().trim();
