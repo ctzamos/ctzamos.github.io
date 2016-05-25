@@ -1,6 +1,7 @@
 ---
 layout: default
 author: Christos Tzamos
+description: 'Christos Tzamos is a Graduate Student in the Theory of Computation Group at CSAIL, MIT.'
 username: tzamos
 emailuser: tzamos
 emaildomain: mit.edu
@@ -13,9 +14,9 @@ My research interests include Algorithmic Game Theory, Learning Theory as well a
 
 ## About
 
-I joined the graduate program of **MIT** on September 2011 in the Theory of Computation group at CSAIL. My PhD advisor is Costis Daskalakis and I enjoy working with him on a wide range of problems from auction theory to learning theory.
+I joined the graduate program of **[MIT](http://www.mit.edu/)** on September 2011 in the Theory of Computation group at CSAIL. My PhD advisor is Costis Daskalakis and I enjoy working with him on a wide range of problems from auction theory to learning theory.
 
-I grew up in Athens, Greece where I also had my undergraduate studies at the **National Technical University of Athens** (Sept. 2006 - June 2011). During my time there, I had the opportunity to work with my advisor Dimitris Fotakis on different problems in mechanism design without money.
+I grew up in Athens, Greece where I also had my undergraduate studies at the **[National Technical University of Athens](http://www.ntua.gr)** (Sept. 2006 - June 2011). During my time there, I had the opportunity to work with my advisor Dimitris Fotakis on different problems in mechanism design without money.
 
 I spent the summer of 2014 as a research intern at **Yahoo! Labs**, Sunnyvale working with Chris Wilkens on multiple research and practical questions regarding online ad auctions. I also interned for **Google**, Cambridge in the mobile search team during summer 2012.
 

@@ -6,8 +6,8 @@ layout: default
 <head>
   <meta charset="utf-8">
   <title>Christos Tzamos</title>
-  <meta name="description" content="Christos Tzamos is a Graduate Student in the Theory of Computation Group at CSAIL, MIT." />
-  <meta name="author" content="Christos Tzamos">
+  <meta name="description" content="{{page.description}}" />
+  <meta name="author" content="{{page.author}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="static/css/bootstrap.css">
   <link rel="stylesheet" href="static/css/main.css">
@@ -38,8 +38,12 @@ layout: default
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
   <script type="text/javascript">
     $(function() {
-      (function(h,u){$("#email").html( $('<a>').text(u+"@"+h).attr('href','mailto:'+u+"@"+h) );})('mit.edu','tzamos');
-      (function(h,u){$("#phone").html( $('<a>').text(u+""+h).attr('href','tel:+1'+u.replace(/\D/g,'')+""+h.replace(/\D/g,'')) );})('09-1739','(617)-9');
+      var email1 = $('#email').contents().filter(function() {return this.nodeType == 3;}).text().trim();
+      var email2 = $('#email > div').contents().filter(function() {return this.nodeType == 3;}).text().trim();
+      var phone1 = $('#phone').contents().filter(function() {return this.nodeType == 3;}).text().trim();
+      var phone2 = $('#phone > div').contents().filter(function() {return this.nodeType == 3;}).text().trim();
+      (function(h,u){$("#email").html( $('<a>').text(u+""+h).attr('href','mailto:'+u+""+h) );})(email1,email2);
+      (function(h,u){$("#phone").html( $('<a>').text(u+""+h).attr('href','tel:+1'+u.replace(/\D/g,'')+""+h.replace(/\D/g,'')) );})(phone1,phone2);
       $('a').each(function() {
         var url = $(this).attr('href');
         if(url.substr(0,1) == '#') {
