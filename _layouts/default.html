@@ -17,20 +17,23 @@
   <div class="container">
     <div class="row">
       <div class="fixed container" style="text-align: center;">
-        <div class="col-md-3 col-md-offset-9 col-sm-4 col-sm-offset-8">
+        <div class="col-md-3 col-sm-4 col-md-offset-9 col-sm-offset-8">
           {% include info.html %}
         </div>
       </div>
       <div class="col-sm-8 col-md-9 content">{{content}}</div>
     </div>
+    
     <hr>
+    
     <div class="row">
       <div class="col-xs-12" style="text-align: center;color: #999; font-size: 0.9em;">
-        <i style="vertical-align: middle">created by <a href="http://christos.me">Christos Tzamos</a>.</i>
+        {% if site.author != 'Christos Tzamos' %}<i style="vertical-align: middle">created by <a href="http://christos.me">Christos Tzamos</a>.</i>{% endif %}
         <br/>
         <br/>
       </div>
     </div>
+    
   </div>
   
   <script type="text/javascript">

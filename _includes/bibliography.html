@@ -6,17 +6,31 @@
 {% assign venue = site.data.venues[publication.venue] %}
   <li>
     <strong>“<a href="{{publication.url | default: '#'}}">{{publication.title}}</a>”</strong>
+
+    {% if pubauthors.size > 1 %}
     <div style="display: inline-block">
-    with 
-    <ul class="coauthors">
+    with
+      {% assign lastindex = pubauthors.size %}
+      {% assign printand = false %}
+      {% if pubauthors.last == site.username %}
+        {% assign lastindex = pubauthors.size | minus: 1 %}
+      {% endif %}
       {% for pubauthor in pubauthors %}
-        {% if pubauthor == site.username %}
-          {% continue %}
-        {% endif %}
+        {% if pubauthor == site.username %}{% continue %}{% endif %}
         {% assign author = site.data.authors[pubauthor] %}
-        <li><a href="{{author.website}}">{{author.firstname | slice: 0}}. {{author.lastname}}</a></li>
+        
+        {% if printand %}
+        {% if forloop.index == lastindex %} and {% endif %}
+        {% endif %}
+        
+        <a href="{{author.website}}">{{author.firstname | slice: 0}}. 
+          {{author.lastname}}</a>{% if forloop.index != lastindex %},{% endif %}
+
+        {% assign printand = true %}
       {% endfor %}
-    </ul></div><br/>
+    </div>
+    {% endif %}
+    <br/>
     in the <a href="{{venue.url | default: '#'}}">{{venue.name}}</a>, <a href="{{venue.url | default: '#'}}">{{venue.slug}} {{venue.year}}</a>
     {% for meta in publication.meta %}
     <br/>
@@ -33,20 +47,33 @@
 {% if publication.venue %}
 {% continue %}
 {% endif %}
-{% assign pubauthors = publication.authors | split: '-' |  %}
+{% assign pubauthors = publication.authors | split: '-'  %}
   <li>
     <strong>“<a href="{{publication.url | default: '#'}}">{{publication.title}}</a>”</strong>
+
+    {% if pubauthors.size > 1 %}
     <div style="display: inline-block">
-    with 
-    <ul class="coauthors">
+    with
+      {% assign lastindex = pubauthors.size %}
+      {% assign printand = false %}
+      {% if pubauthors.last == site.username %}
+        {% assign lastindex = pubauthors.size | minus: 1 %}
+      {% endif %}
       {% for pubauthor in pubauthors %}
-        {% if pubauthor == site.username %}
-          {% continue %}
-        {% endif %}
+        {% if pubauthor == site.username %}{% continue %}{% endif %}
         {% assign author = site.data.authors[pubauthor] %}
-        <li><a href="{{author.website}}">{{author.firstname | slice: 0}}. {{author.lastname}}</a></li>
+        
+        {% if printand %}
+        {% if forloop.index == lastindex %} and {% endif %}
+        {% endif %}
+        
+        <a href="{{author.website}}">{{author.firstname | slice: 0}}. 
+          {{author.lastname}}</a>{% if forloop.index != lastindex %},{% endif %}
+
+        {% assign printand = true %}
       {% endfor %}
-    </ul></div><br/>
+    </div>
+    {% endif %}
     {% for meta in publication.meta %}
     <br/>
     <span style="color: {{meta.color | default: 'black'}};">{{meta.icon | default: '-'}} <a href="{{meta.url | default: '#'}}">{{meta.content}}</a></span>

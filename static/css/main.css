@@ -30,11 +30,16 @@ li {padding: 5px 0;}
 @media (min-width: 768px) {
   .fixed {position: fixed;}
 }
+
+.publications {
+  
+}
 .important {
   color: brown;
   font-size: inherit;
   margin: 0;
   font-weight: bold;
+  padding: 0;
   padding-left: 1em;
   text-indent: -1em;
   list-style: none;
