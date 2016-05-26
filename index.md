@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-# {{site.author}}
+# Christos Tzamos
 
 I study Computer Science in the **[Theory of Computation](http://toc.csail.mit.edu/)** group at **[MIT](http://www.mit.edu/)** where I am advised by **[Constantinos Daskalakis](http://people.csail.mit.edu/costis/)**.
 
