@@ -63,3 +63,6 @@ ul ul li {padding: 0; list-style: square;}
   content: "★";
   padding-right: 5px;
 }
+.regular {
+display: none;
+}
