@@ -38,3 +38,4 @@ I am interested in Algorithmic Game Theory, Learning Theory as well as in the De
 *   [Revenue-optimal mechanisms for Beta distributed items.](/betas)
 *   [The EM algorithm for Naive-Bayes.](/em)
 *   [A collection of hard riddles and puzzles.](/puzzles)
+*   [A script generating random passwords.](/pwd)
