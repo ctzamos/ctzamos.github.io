@@ -77,7 +77,11 @@
   url: http://www.softlab.ntua.gr/~fotakis/data/wine10.pdf
 
 -
-  title: Strongly Sublinear Algorithms via Conditional Sampling
+  title: Improving Viterbi is Hard: Better Runtimes Imply Faster Clique Algorithms
+  authors: backurs-tzamos
+  url: http://arxiv.org/abs/1607.04229
+-
+  title: Faster Sublinear Algorithms via Conditional Sampling
   authors: gouleakis-tzamos-zampetakis
 -
   title: 'Optimal Seat Pricing With Multiple Classes & Why Economy Seats Feel so Small'
