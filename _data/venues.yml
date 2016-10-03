@@ -6,7 +6,7 @@ icalp2016:
 ec2016:
   slug: EC
   year: 2016
-  name: 14th ACM Conference on Economics and Computation
+  name: 17th ACM Conference on Economics and Computation
   url: http://www.sigecom.org/ec16/
 stoc2016:
   slug: STOC
