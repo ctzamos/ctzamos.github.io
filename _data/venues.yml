@@ -1,3 +1,8 @@
+soda2017:
+  slug: SODA
+  year: 2017
+  name: 28th ACM-SIAM Symposium on Discrete Algorithms
+  url: https://www.siam.org/meetings/da17/
 icalp2016:
   slug: ICALP
   year: 2016
@@ -36,7 +41,7 @@ adauctions2015:
 soda2014:
   slug: SODA
   year: 2014
-  name: ACM-SIAM Symposium on Discrete Algorithms
+  name: 25th ACM-SIAM Symposium on Discrete Algorithms
   url: https://www.siam.org/meetings/da14/
 ec2013:
   slug: EC
