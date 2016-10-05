@@ -20,6 +20,11 @@
   venue: icalp2016 
   url: http://arxiv.org/abs/1602.05837
 -
+  title: Anonymous Auctions Maximizing Revenue
+  authors: tzamos-wilkens
+  venue: wine2016
+  url: http://arxiv.org/abs/1411.1379
+-
   title: A Size-Free CLT for Poisson Multinomials and its Applications
   authors: daskalakis-de-kamath-tzamos
   venue: stoc2016
@@ -39,11 +44,6 @@
   authors: daskalakis-deckelbaum-tzamos
   venue: ec2015
   url: http://arxiv.org/abs/1409.4150
--
-  title: The Value of Knowing Your Enemy
-  authors: tzamos-wilkens
-  venue: adauctions2015
-  url: http://arxiv.org/abs/1411.1379
 -
   title: The Complexity of Optimal Mechanism Design
   authors: daskalakis-deckelbaum-tzamos
