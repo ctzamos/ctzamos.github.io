@@ -1,5 +1,10 @@
 ---
 -
+  title: Faster Sublinear Algorithms via Conditional Sampling
+  authors: gouleakis-tzamos-zampetakis
+  venue: soda2017
+  url: http://arxiv.org/abs/1608.04759
+-
   title: Does Information Revelation Improve Revenue?
   authors: daskalakis-papadimitriou-tzamos
   venue: ec2016
@@ -83,10 +88,6 @@
   title: 'Improving Viterbi is Hard: Better Runtimes Imply Faster Clique Algorithms'
   authors: backurs-tzamos
   url: http://arxiv.org/abs/1607.04229
--
-  title: Faster Sublinear Algorithms via Conditional Sampling
-  authors: gouleakis-tzamos-zampetakis
-  url: http://arxiv.org/abs/1608.04759
 -
   title: 'Optimal Seat Pricing With Multiple Classes & Why Economy Seats Feel so Small'
   authors: stamatopoulos-tzamos
