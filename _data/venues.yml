@@ -3,6 +3,11 @@ soda2017:
   year: 2017
   name: 28th ACM-SIAM Symposium on Discrete Algorithms
   url: https://www.siam.org/meetings/da17/
+wine2016:
+  slug: WINE
+  year: 2016
+  name: '12th Workshop on Internet & Network Economics'
+  url: http://wine12.csc.liv.ac.uk/
 icalp2016:
   slug: ICALP
   year: 2016
