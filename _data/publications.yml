@@ -35,15 +35,17 @@
   venue: focs2015
   url: http://arxiv.org/abs/1504.08363
 -
-  title: Efficient Money Burning in General Domains
-  authors: fotakis-tsipras-tzamos-zampetakis
-  venue: sagt2015
-  url: static/pdfs/FTTZ15.pdf
--
   title: Strong Duality for a Multiple-Good Monopolist
   authors: daskalakis-deckelbaum-tzamos
   venue: ec2015
   url: http://arxiv.org/abs/1409.4150
+  journal: Econometrica (forthcoming)
+-
+  title: Efficient Money Burning in General Domains
+  authors: fotakis-tsipras-tzamos-zampetakis
+  venue: sagt2015
+  url: static/pdfs/FTTZ15.pdf
+  journal: "Theory of Computing Systems. <span style='color: brown'>Special Issue for SAGT 2015. Invited.</span>"
 -
   title: The Complexity of Optimal Mechanism Design
   authors: daskalakis-deckelbaum-tzamos
@@ -65,11 +67,13 @@
   authors: fotakis-tzamos
   venue: ec2013
   url: http://arxiv.org/abs/1305.3333
+  journal: "Algorithmica 76(1): 143-167 (2016)"
 -
   title: On the Power of Deterministic Mechanisms for Facility Location Games
   authors: fotakis-tzamos
   venue: icalp2013
   url: http://arxiv.org/abs/1207.0935
+  journal: "ACM Transactions on Economics and Computation 2(4): 15:1-15:37 (2014)"
 -
   title: Optimal Pricing is Hard
   authors: daskalakis-deckelbaum-tzamos
@@ -80,6 +84,7 @@
   authors: fotakis-tzamos
   venue: wine2010
   url: http://www.softlab.ntua.gr/~fotakis/data/wine10.pdf
+  journal: "Theoretical Computer Science 472: 90-103 (2013)"
 -
   title: Ten Steps of EM Suffice for Mixtures of Two Gaussians
   authors: daskalakis-tzamos-zampetakis
@@ -91,4 +96,4 @@
 -
   title: 'Optimal Seat Pricing With Multiple Classes & Why Economy Seats Feel so Small'
   authors: stamatopoulos-tzamos
-  url: static/pdfs/ST15.pdf
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2862490
