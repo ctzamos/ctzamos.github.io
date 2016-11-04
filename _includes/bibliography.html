@@ -1,4 +1,47 @@
-<h3>Publications</h3>
+<h3>Journal Articles</h3>
+<ol>
+{% for publication in site.data.publications %}
+{% if publication.journal %}
+{% assign pubauthors = publication.authors | split: '-'  %}
+{% assign venue = site.data.venues[publication.venue] %}
+  <li>
+    <strong>“<a href="{{publication.url | default: '#'}}">{{publication.title}}</a>”</strong>
+
+    {% if pubauthors.size > 1 %}
+    <div style="display: inline-block">
+    with
+      {% assign lastindex = pubauthors.size %}
+      {% assign printand = false %}
+      {% if pubauthors.last == site.username %}
+        {% assign lastindex = pubauthors.size | minus: 1 %}
+      {% endif %}
+      {% for pubauthor in pubauthors %}
+        {% if pubauthor == site.username %}{% continue %}{% endif %}
+        {% assign author = site.data.authors[pubauthor] %}
+        
+        {% if printand %}
+        {% if forloop.index == lastindex %} and {% endif %}
+        {% endif %}
+        
+        <a href="{{author.website}}">{{author.firstname | slice: 0}}. 
+          {{author.lastname}}</a>{% if forloop.index != lastindex %},{% endif %}
+
+        {% assign printand = true %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    <br/>
+    {{publication.journal}}
+    {% for meta in publication.meta %}
+    <br/>
+    <span style="color: {{meta.color | default: 'black'}};">{{meta.icon | default: '-'}} <a href="{{meta.url | default: '#'}}">{{meta.content}}</a></span>
+    {% endfor %}
+  </li>
+{% endif %}
+{% endfor %}
+</ol>
+
+<h3>Conference Proceedings</h3>
 <ol>
 {% for publication in site.data.publications %}
 {% if publication.venue %}
