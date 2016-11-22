@@ -89,6 +89,7 @@
   title: Ten Steps of EM Suffice for Mixtures of Two Gaussians
   authors: daskalakis-tzamos-zampetakis
   url: https://arxiv.org/abs/1609.00368
+  notes: "NIPS 2016 Workshop on Non-Convex Optimization for Machine Learning."
 -
   title: 'Improving Viterbi is Hard: Better Runtimes Imply Faster Clique Algorithms'
   authors: backurs-tzamos
