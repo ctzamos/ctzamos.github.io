@@ -1,3 +1,13 @@
+colt2017:
+  slug: COLT
+  year: 2017
+  name: 30th Annual Conference on Learning Theory
+  url: http://www.learningtheory.org/colt2017/
+icml2017:
+  slug: ICML
+  year: 2017
+  name: 34th International Conference on Machine Learning
+  url: https://2017.icml.cc/
 soda2017:
   slug: SODA
   year: 2017

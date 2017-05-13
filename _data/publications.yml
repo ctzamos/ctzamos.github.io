@@ -1,5 +1,16 @@
 ---
 -
+  title: Ten Steps of EM Suffice for Mixtures of Two Gaussians
+  authors: daskalakis-tzamos-zampetakis
+  url: https://arxiv.org/abs/1609.00368
+  venue: colt2017
+  notes: "NIPS 2016 Workshop on Non-Convex Optimization for Machine Learning."
+-
+  title: 'Improving Viterbi is Hard: Better Runtimes Imply Faster Clique Algorithms'
+  authors: backurs-tzamos
+  venue: icml2017
+  url: http://arxiv.org/abs/1607.04229
+-
   title: Faster Sublinear Algorithms via Conditional Sampling
   authors: gouleakis-tzamos-zampetakis
   venue: soda2017
@@ -85,15 +96,6 @@
   venue: wine2010
   url: http://www.softlab.ntua.gr/~fotakis/data/wine10.pdf
   journal: "Theoretical Computer Science 472: 90-103 (2013)"
--
-  title: Ten Steps of EM Suffice for Mixtures of Two Gaussians
-  authors: daskalakis-tzamos-zampetakis
-  url: https://arxiv.org/abs/1609.00368
-  notes: "NIPS 2016 Workshop on Non-Convex Optimization for Machine Learning."
--
-  title: 'Improving Viterbi is Hard: Better Runtimes Imply Faster Clique Algorithms'
-  authors: backurs-tzamos
-  url: http://arxiv.org/abs/1607.04229
 -
   title: 'Optimal Seat Pricing With Multiple Classes & Why Economy Seats Feel so Small'
   authors: stamatopoulos-tzamos
