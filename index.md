@@ -1,19 +1,13 @@
 ---
 layout: default
 ---
-# Christos Tzamos
-
-I study Computer Science in the **[Theory of Computation](http://toc.csail.mit.edu/)** group at **[MIT](http://www.mit.edu/)** where I am advised by **[Constantinos Daskalakis](http://people.csail.mit.edu/costis/)**.
-
-My research interests include Algorithmic Game Theory, Learning Theory as well as the Design, Analysis and Theory of Algorithms.
-
 ## About
 
-I joined the graduate program of **[MIT](http://www.mit.edu/)** on September 2011 in the Theory of Computation group at CSAIL. My PhD advisor is Costis Daskalakis and I enjoy working with him on a wide range of problems from auction theory to learning theory.
+I am a post-doctoral researcher at **[Microsoft Research New England](https://www.microsoft.com/en-us/research/people/chtzamos/)** working on Mechanism Design, Algorithms and Machine Learning.
 
-I grew up in Athens, Greece where I also had my undergraduate studies at the **[National Technical University of Athens](http://www.ntua.gr)** (Sept. 2006 - June 2011). During my time there, I had the opportunity to work with my advisor Dimitris Fotakis on different problems in mechanism design without money.
+On August 2018, I will join the **[Theory of Computing group](http://research.cs.wisc.edu/areas/theory/)** at UW Madison as an Assistant Professor of Computer Science. 
 
-I spent the summer of 2014 as a research intern at **[Yahoo! Labs](http://yahoo.com)**, Sunnyvale working with Chris Wilkens on multiple research and practical questions regarding online ad auctions. I also interned for **[Google](http://google.com)**, Cambridge in the mobile search team during summer 2012.
+I completed my PhD in the Theory of Computation group at **[MIT](http://www.mit.edu/)** under the supervision of Costis Daskalakis. I grew up in Athens, Greece where I also had my undergraduate studies at the **[National Technical University of Athens](http://www.ntua.gr)**.
 
 ## Research
 

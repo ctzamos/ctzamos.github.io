@@ -13,14 +13,9 @@
   <style>body {font-family:"Lato",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 15px; line-height: 1.8em;}</style>
 </head>
 <body>
-  <div style="background: black; height: 5px;"></div>
   <div class="container">
-    <div class="row">
-      <div class="col-sm-8 col-md-9 content">{{content}}</div>
-      <div class="col-md-3 col-sm-4" style="text-align: center;">
-        {% include info.html %}
-      </div>
-    </div>
+    {% include info.html %}
+    {{content}}
     
     <hr>
     
