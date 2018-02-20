@@ -1,3 +1,13 @@
+stoc2018:
+  slug: STOC
+  year: 2018
+  name: 50th Annual ACM Symposium on Theory of Computing
+  url: http://acm-stoc.org/stoc2018/
+aistats2018:
+  slug: AISTATS
+  year: 2017
+  name: 21st International Conference on Artificial Intelligence and Statistics
+  url: http://www.aistats.org/
 colt2017:
   slug: COLT
   year: 2017
@@ -31,7 +41,7 @@ ec2016:
 stoc2016:
   slug: STOC
   year: 2016
-  name: 48th ACM Symposium on Theory of Computing
+  name: 48th Annual ACM Symposium on Theory of Computing
   url: http://acm-stoc.org/stoc2016/
 focs2015:
   slug: FOCS

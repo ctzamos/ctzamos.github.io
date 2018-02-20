@@ -1,10 +1,24 @@
 ---
 -
+  title: A Converse to Banach’s Fixed Point Theorem and its CLS Completeness
+  authors: daskalakis-tzamos-zampetakis
+  url: https://arxiv.org/abs/1702.07339
+  venue: stoc2018
+-
+  title: Bootstrapping EM via Power EM and Convergence in the Naive Bayes Model
+  authors: daskalakis-tzamos-zampetakis
+  url: https://arxiv.org/abs/1609.00368
+  venue: aistats2018
+-
   title: Ten Steps of EM Suffice for Mixtures of Two Gaussians
   authors: daskalakis-tzamos-zampetakis
   url: https://arxiv.org/abs/1609.00368
   venue: colt2017
-  notes: "NIPS 2016 Workshop on Non-Convex Optimization for Machine Learning."
+  meta:
+    -
+      content: "Preliminary version in NIPS 2016 Workshop on Non-Convex Optimization for Machine Learning."
+      url: https://sites.google.com/site/nonconvexnips2016/
+      color: black
 -
   title: 'Improving Viterbi is Hard: Better Runtimes Imply Faster Clique Algorithms'
   authors: backurs-tzamos
@@ -96,6 +110,18 @@
   venue: wine2010
   url: http://www.softlab.ntua.gr/~fotakis/data/wine10.pdf
   journal: "Theoretical Computer Science 472: 90-103 (2013)"
+-
+  title: 'Combinatorial Assortment Optimization'
+  authors: immorlica-lucier-jieming-syrgkanis
+  url: https://arxiv.org/abs/1711.02601
+-
+  title: 'Actively Avoiding Nonsense in Generative Models'
+  authors: hanneke-kalai-kamath
+  url: 
+-
+  title: 'Capacitated Dynamic Programming: Faster Knapsack and Graph Algorithms'
+  authors: axiotis-tzamos
+  url: https://arxiv.org/abs/1802.06440
 -
   title: 'Optimal Seat Pricing With Multiple Classes & Why Economy Seats Feel so Small'
   authors: stamatopoulos-tzamos
