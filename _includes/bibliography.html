@@ -88,6 +88,7 @@
 <ol>
 {% for publication in site.data.publications %}
 {% if publication.venue %}
+{% if publication.journal %}
 {% continue %}
 {% endif %}
 {% assign pubauthors = publication.authors | split: '-'  %}
