@@ -1,5 +1,15 @@
 ---
 -
+  title: 'Actively Avoiding Nonsense in Generative Models'
+  authors: hanneke-kalai-kamath
+  url: https://arxiv.org/abs/1802.07229
+  venue: colt2018
+-
+  title: 'Optimal Seat Pricing With Multiple Classes & Why Economy Seats Feel so Small'
+  authors: stamatopoulos-tzamos
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2862490
+  journal: "Management Science (2018) - accepted"
+-
   title: A Converse to Banach’s Fixed Point Theorem and its CLS Completeness
   authors: daskalakis-tzamos-zampetakis
   url: https://arxiv.org/abs/1702.07339
@@ -115,14 +125,6 @@
   authors: immorlica-lucier-jieming-syrgkanis
   url: https://arxiv.org/abs/1711.02601
 -
-  title: 'Actively Avoiding Nonsense in Generative Models'
-  authors: hanneke-kalai-kamath
-  url: https://arxiv.org/abs/1802.07229
--
   title: 'Capacitated Dynamic Programming: Faster Knapsack and Graph Algorithms'
   authors: axiotis-tzamos
   url: https://arxiv.org/abs/1802.06440
--
-  title: 'Optimal Seat Pricing With Multiple Classes & Why Economy Seats Feel so Small'
-  authors: stamatopoulos-tzamos
-  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2862490
