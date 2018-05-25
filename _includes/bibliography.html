@@ -88,6 +88,8 @@
 <ol>
 {% for publication in site.data.publications %}
 {% if publication.venue %}
+{% continue %}
+{% endif %}
 {% if publication.journal %}
 {% continue %}
 {% endif %}
