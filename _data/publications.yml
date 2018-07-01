@@ -1,13 +1,19 @@
 ---
 -
+  title: Efficient Statistics, in High Dimensions, from Truncated Samples
+  authors: daskalakis-gouleakis-tzamos-zampetakis
+  url: https://arxiv.org/abs/1702.07339
+  venue: focs2018
+-
   title: 'Actively Avoiding Nonsense in Generative Models'
   authors: hanneke-kalai-kamath
   url: https://arxiv.org/abs/1802.07229
   venue: colt2018
 -
-  title: 'Learning from Unreliable Datasets'
+  title: 'Certified Computation from Unreliable Datasets'
   authors: gouleakis-tzamos-zampetakis
   venue: colt2018
+  url: https://arxiv.org/abs/1709.03926
 -
   title: 'Design and Dynamic Pricing of Vertically Differentiated Inventories'
   authors: stamatopoulos-tzamos
